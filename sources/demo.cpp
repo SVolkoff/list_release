@@ -1,9 +1,7 @@
 #include <list.hpp>
-int main(int argc, char** argv) {
-std::string text;
-while(std::cin >> text) {
-std::ofstream out("log.txt", std::ios_base::app);
-print(text, out);
-out << std::endl;
-}
+
+int main(int argc, char** argv) 
+{
+    list<int> l = { 1, 2, 3};
+    return 0;
 }
